@@ -1,0 +1,23 @@
+{
+  "name": "git_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhhoang007/git_web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minhhoang007/git_web/issues"
+  },
+  "homepage": "https://github.com/minhhoang007/git_web#readme",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "normalize": "^0.3.1"
+  }
+}
