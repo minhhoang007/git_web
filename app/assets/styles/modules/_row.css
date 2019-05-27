@@ -13,6 +13,8 @@
             margin-right: -65px;
         } 
 
+        
+
 
         &__col-sm-4{
             float: left;
@@ -22,6 +24,11 @@
         &__col-sm-8{
             float: right;
             max-width: 66.66%;
+        }
+
+        &__col-md-6{
+            float: left;
+            width: 50%;
         }
     }
     
@@ -36,6 +43,8 @@
             font-weight: 400;
         }
     }
+
+    
     
 }
 
