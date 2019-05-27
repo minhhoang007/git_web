@@ -19,5 +19,8 @@
         }
         
     }
+    &__testimonials{
+        margin: 0 18px;
+    }
 
 }

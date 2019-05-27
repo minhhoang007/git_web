@@ -1,0 +1,49 @@
+.wrapper-testimonials{
+    
+
+    @mixin atMedium{}
+
+    @mixin clearfix;
+
+    &__float{
+       float: left;
+       width: 33.33%;
+       margin-top: 6.25rem;
+    }
+
+    &__block{
+        background-color: rgba(97, 90, 90, 0.8);
+        padding: 0 1.8125rem 1px 1.8125rem;
+        border-radius: 5px;  
+    }
+
+
+    &__photo{
+        overflow: hidden;
+        border: 6px solid rgba(97, 90, 90, 0.8) ;
+        width: 160px;
+        height: 160px;
+        border-radius: 80px;
+        margin: 0 auto -80px  auto;
+        position: relative;
+        top: -80px;
+    }
+
+    &__titles{
+        color: $mainBlue;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    &__subtitles{
+        color: $mainOrange;
+        text-align: center;
+        font-size: 0.9375rem;
+        font-weight: 400;
+        margin: .25rem 0 1rem 0;
+    }
+
+   
+}

@@ -13,9 +13,6 @@
             margin-right: -65px;
         } 
 
-        
-
-
         &__col-sm-4{
             float: left;
             max-width: 33.34%;
@@ -28,7 +25,7 @@
 
         &__col-md-6{
             float: left;
-            width: 50%;
+            width: 50%; 
         }
     }
     
@@ -44,7 +41,17 @@
         }
     }
 
-    
-    
+    /* being equal heit */
+     &--equal-height{
+        @mixin atMedium{
+            display: flex;
+        }
+
+        & > div{
+            float: none;
+            display: flex;
+        }
+    } 
+     
 }
 

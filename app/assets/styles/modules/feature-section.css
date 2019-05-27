@@ -1,11 +1,26 @@
 .feature-section{
     text-align: center;
-    font-weight: 100;
-    font-size: 3.5rem;
+    font-weight: 100; 
+    font-size: 1.5rem;
+
+    @mixin atMedium{
+        font-size: 3.5rem;
+    }
+
+    &__icon{
+        position: relative;
+        top: 10px;
+    }
 
     strong{
         font-weight: 600;
     }
-
+    
+    &--blue{
+        color: $mainBlue;
+        @mixin atMedium{
+            margin: 80px 0;
+        }
+    }
    
 }
