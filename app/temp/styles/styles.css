@@ -552,6 +552,8 @@ a {
 
 .row{
     margin: 0 18px;
+
+    
     
 }
 
@@ -580,6 +582,11 @@ a {
     float: right;
     max-width: 66.66%;
   }
+
+  .row__col-md-6 {
+    float: left;
+    width: 50%;
+  }
 }
 
 .row__lead p{
@@ -590,4 +597,40 @@ a {
 
 .row__lead p a {
   font-weight: 400;
+}
+
+.feature-section{
+    text-align: center;
+    font-weight: 100;
+    font-size: 3.5rem;
+
+   
+}
+
+.feature-section strong{
+  font-weight: 600;
+}
+
+.feature-item{
+     padding-left: 94px;
+     position: relative;
+}
+
+@media (min-width: 800px) {
+
+  .feature-item {
+    padding-bottom: 1.75rem;
+    padding-right: 35px;
+  }
+}
+
+.feature-item__icon{
+  position: absolute;
+  left: 0;
+}
+
+.feature-item__title{
+  font-size: 1.875rem;
+  font-weight: 300;
+  margin-bottom: 0;
 }
