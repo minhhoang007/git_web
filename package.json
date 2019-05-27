@@ -2,15 +2,18 @@
   "name": "git_web",
   "version": "1.0.0",
   "dependencies": {
-    "gulp-uglifycss": "^1.1.0",
     "jquery": "^3.4.1",
-    "normalize": "^0.3.1"
+    "normalize.css": "^8.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.6",
+    "browser-sync": "^2.12.8",
     "gulp": "^3.9.1",
     "gulp-postcss": "^6.1.1",
     "gulp-watch": "^4.3.5",
+    "postcss": "^7.0.16",
+    "postcss-import": "^8.1.2",
+    "postcss-mixins": "^4.0.2",
     "postcss-nested": "^1.0.0",
     "postcss-simple-vars": "^1.2.0"
   }
