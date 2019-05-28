@@ -20,7 +20,11 @@
         
     }
     &__testimonials{
-        margin: 0 18px;
+        margin: 0 50px;
+
+        @mixin atMedium{
+            margin: 0 18px;
+        }
     }
 
 }
